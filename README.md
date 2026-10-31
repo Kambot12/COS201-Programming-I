@@ -1,71 +1,53 @@
 # COS 201 - Computer Programming I
 
-## Student Information
-- Name: Chimere Kamsiriochukwu Emmanuel
-- Matriculation Number: 25/17602
-- Programme: Cybersecurity (CYB)
-- Course: COS 201
-- Weeks: 1-3
+Hi, I'm Chimere Kamsiriochukwu Emmanuel (Matric No: 25/17602), a Cybersecurity (CYB) student. This repo holds my practical work for COS 201, covering Weeks 1 to 3.
 
 ## Week 1: Introduction to Programming and Problem-Solving
 
-### Program
-- `week01/FirstProgram.java`
-- Displays the course, programme, three reasons programming is important to Cybersecurity, and a learning goal.
+My first program is `week01/FirstProgram.java`. It prints the course and my programme, gives three reasons programming matters in Cybersecurity, and states what I want to get out of the course.
 
-### How to Run
-1. Open a terminal in the `week01` directory.
-2. Compile with `javac FirstProgram.java`.
-3. Run with `java FirstProgram`.
+To run it, open a terminal in the `week01` folder and type:
+
+```
+javac FirstProgram.java
+java FirstProgram
+```
 
 ## Week 2: Development Environment and First Java Program
 
-### Objective
-To configure the Java development environment, write simple Java programs, compile them, execute them, and prepare the source code for submission.
+This week was about getting my setup working: installing the JDK, writing a few simple programs in VS Code, compiling and running them, and pushing the code to GitHub. I used the JDK, Visual Studio Code, Git, GitHub Desktop and GitHub.
 
-### Tools Used
-- Java Development Kit (JDK)
-- Visual Studio Code
-- Git
-- GitHub Desktop
-- GitHub
+There are two programs here:
 
-### Files
-- `week02/HelloWorld.java`: Personalized Java output program for the practical.
-- `week02/StudentProfile.java`: Student profile template with unknown details left as placeholders.
+- `week02/HelloWorld.java` is a personalised version of the classic Hello World.
+- `week02/StudentProfile.java` is a student profile template. I left placeholders for the details I didn't have yet.
 
-### How to Run
-1. Open a terminal in the `week02` directory.
-2. Compile with `javac HelloWorld.java StudentProfile.java`.
-3. Run with `java HelloWorld` or `java StudentProfile`.
+To run them, open a terminal in the `week02` folder:
 
-### Learning Outcome
-I practised creating, compiling, and running Java programs.
+```
+javac HelloWorld.java StudentProfile.java
+java HelloWorld
+java StudentProfile
+```
+
+By the end of the week I was comfortable creating, compiling and running Java programs on my own.
 
 ## Week 3: Variables, Data Types, Expressions and Input/Output
 
-### Objectives
-- Declare and initialize Java variables.
-- Use appropriate primitive and reference data types.
-- Perform arithmetic calculations.
-- Read keyboard input using `Scanner`.
-- Display formatted output.
-- Compile and test Java programs.
+Week 3 got into the basics of working with data. I practised declaring and initialising variables, choosing the right primitive and reference types, doing arithmetic, reading input from the keyboard with `Scanner`, and printing formatted output.
 
-### Programs
-1. `week03/SimpleCalculator.java`
-   - Performs arithmetic calculations on two numbers.
-2. `week03/AverageCalculator.java`
-   - Calculates the total and average of three scores.
-3. `week03/ItemCost.java`
-   - Calculates the total cost using quantity and unit price.
+I wrote three programs:
 
-### How to Run
-Open a terminal in the `week03` directory.
+- `week03/SimpleCalculator.java` takes two numbers and does arithmetic on them.
+- `week03/AverageCalculator.java` works out the total and average of three scores.
+- `week03/ItemCost.java` calculates the total cost from a quantity and a unit price.
 
-- `javac SimpleCalculator.java` then `java SimpleCalculator`
-- `javac AverageCalculator.java` then `java AverageCalculator`
-- `javac ItemCost.java` then `java ItemCost`
+To run them, open a terminal in the `week03` folder and compile and run each one:
 
-### Testing
-Test each program with different valid inputs and verify that the results match the expected calculations.
+```
+javac SimpleCalculator.java && java SimpleCalculator
+javac AverageCalculator.java && java AverageCalculator
+javac ItemCost.java && java ItemCost
+```
+
+I tested each program with a few different inputs and checked the results against my own calculations.
